@@ -80,6 +80,13 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.logo-text {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;}
+
 .form-header h2 {
     font-family: var(--font-serif);
     font-size: 1.5rem;
@@ -92,7 +99,7 @@ body {
 }
 
 
-.btn-google {
+.btn-sso {
     width: 100%;
     display: flex;
     align-items: center;
@@ -110,8 +117,9 @@ body {
     transition: background-color 0.2s;
 }
 
-.btn-google:hover {
+.btn-sso:hover {
     background-color: #f7f7f7;
+    border-color: #b0b0b0;
 }
 
 
